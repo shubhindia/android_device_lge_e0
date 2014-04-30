@@ -29,8 +29,8 @@ on emmc-fs
     mount ext4 /dev/block/mmcblk0p16 /cache nosuid nodev data=ordered,barrier=1
 
     #setprop ro.crypto.fuse_sdcard true
-    wait /dev/block/mmcblk0p21
-    mount ext4 /dev/block/mmcblk0p21 /data nosuid nodev noatime barrier=1,data=ordered,noauto_da_alloc,errors=continue
+    wait /dev/block/mmcblk0p20
+    mount ext4 /dev/block/mmcblk0p20 /data nosuid nodev noatime barrier=1,data=ordered,noauto_da_alloc,errors=continue
 
 
 # LGE_CHANGE_E [jyothishre.nk@lge.com] 20120215
